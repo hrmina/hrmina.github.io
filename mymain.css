@@ -1,0 +1,334 @@
+html {
+
+    scroll-behavior: smooth;
+}
+
+
+body    {
+
+    background-color: #443627;  
+
+}
+
+.menu ul  {
+
+
+    list-style-type: none;
+}
+
+.menu   {
+
+    padding-left: 1030px;
+    position: fixed;
+    top: 15px;
+    z-index: 1;
+}
+
+.menu li  {
+
+    float: left;
+}
+
+p, .menu li {
+
+
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: beige;
+    size: 10px;
+    font-size: 18px;
+
+}
+
+p {
+
+    padding-left: 15px;
+
+}
+
+.menu li a {
+
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+.menu li a:hover {
+    background-color: #D98324;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #443627;
+  }
+
+.bgc {
+
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    padding-top: 8%;
+    z-index: -1;
+
+}
+
+#aboutme    {
+
+    margin-top: 147px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #EFDCAB;
+    height: 396px;
+    width: 40%;
+    position: absolute;
+    margin-left: 145px;
+
+}
+
+.header {
+
+    position: fixed;
+
+}
+
+h1  {
+
+    font-size: 50px;
+
+}
+
+h1, h4  {
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.profile {
+
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding-left: 46%;
+    padding-top: 3%;
+    z-index: -1;
+
+}
+
+h5 a {
+
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #D98324 ;
+    border-radius: 30px;
+
+}
+
+h5  {
+
+    padding-left: 35%;
+    padding-top: 5%;
+
+}
+
+#resume {
+
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #D98324;
+    padding: 30px;
+    margin-top: 15%;
+    font-size: 16px;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -8px;
+    z-index: -1;
+    height: 850px;
+
+}
+
+#exp    {
+
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 50%;
+
+}
+
+.titleskill {
+
+    position: relative;
+    width: 35%;
+    height: 38%;
+    padding-left: 10%;
+    padding-top: 5px;
+    
+}
+
+#skills {
+
+    position: absolute;
+    top: 0;
+    margin-left: 51%;
+    margin-top: 33%;
+
+}
+
+pre {
+
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+#works  {
+
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #EFDCAB;
+    position: relative;
+    height: 1250px;
+    margin-top: 20%;
+    z-index: -1;
+}
+
+#inventory  {
+
+    border: 10px inset #D98324;
+    border-radius: 50px;
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    margin-left: 35px;
+    
+}
+
+#inventoryimg   {
+
+    position: relative;
+    width: 60%;
+    height: 60%;
+    padding-left: 19%;
+    padding-top: 5px;
+
+}
+
+#websites  {
+
+    border: 10px inset #D98324;
+    border-radius: 50px;
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    margin-left: 51%;
+    
+}
+
+#websiteimg   {
+
+    position: relative;
+    width: 60%;
+    height: 60%;
+    padding-left: 21%;
+    padding-top: 5px;
+
+}
+
+#registerlogin  {
+
+    border: 10px inset #D98324;
+    border-radius: 50px;
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    margin-left: 35px;
+    margin-top: 30%;
+    
+}
+
+#reglogimg   {
+
+    position: relative;
+    width: 60%;
+    height: 60%;
+    padding-left: 19%;
+    padding-top: 5px;
+
+}
+
+#database  {
+
+    border: 10px inset #D98324;
+    border-radius: 50px;
+    position: absolute;
+    height: 400px;
+    width: 700px;
+    margin-left: 51%;
+    margin-top: 30%;
+    
+}
+
+#dataimg   {
+
+    position: relative;
+    width: 60%;
+    height: 60%;
+    padding-left: 21%;
+    padding-top: 5px;
+
+}
+
+#githublink {
+
+    top: 0;
+    margin-top: 245%;
+    margin-left: 41%;
+    position: absolute;
+    font-family: "Bricolage Grotesque", sans-serif;
+
+}
+
+#githublink a   {
+
+    color: beige;
+    padding: 15px;
+    text-decoration: none;
+    background-color:#443627 ;
+    border-radius: 30px;
+
+}
+
+#githublink a:hover {
+
+    font-weight: 1000;
+
+}
+
+
+#contact    {
+
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: whitesmoke;
+    margin-left: 39%;
+    margin-top: 287%;
+    position: absolute;
+    top: 0;
+
+
+}
+
+#contact a  {
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#contact a:hover    {
+
+    font-weight: 700;
+}
+
+#tysm   {
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -2;
+
+}
+
